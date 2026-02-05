@@ -12,4 +12,6 @@ print(coordinates)
 print(type(coordinates))
 
 # research and come up with an example of a complex data type
-
+x = 3 + 5j
+print(x)
+print(type(x))
