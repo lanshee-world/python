@@ -1,5 +1,5 @@
 # NHIF premium rates(Kshs)
-grossincome = int(input("Enter Your income"))
+grossincome = float(input("Enter Your income"))
 if grossincome > 0 and grossincome <= 5999:
     print("Your monthly Contribution is Kshs.150.00")
 elif grossincome >= 6000 and grossincome <= 7999:
