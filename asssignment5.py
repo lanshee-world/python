@@ -35,8 +35,9 @@ def calculate_sum_to_n(n):
     for i in range(1, n + 1):
         total_sum += i
     print(f"The sum of numbers from 1 to {n} is: {total_sum}")
-
-calculate_sum_to_n(5)
+    
+user_input = int(input("Enter number"))
+calculate_sum_to_n(user_input)
 
 def calculate_squares(limit):
     i = 1

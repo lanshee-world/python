@@ -7,3 +7,7 @@ def simpleinterest(x, y, z):
 
 simpleinterest(45000, 7, 8)
 
+interest = {
+    (8000, 3, 4)
+    (4000, 2, 9)
+}
